@@ -1,6 +1,10 @@
 CSharpReflectionTest
 ====
 
+    using System.Reflection;
+        .
+        .
+        .
     public void SetValue(string name, object value)
     {
         Type t = this.GetType();
@@ -18,6 +22,9 @@ CSharpReflectionTest
         Type t = this.GetType();
         return t.GetField(name).FieldType;
     }
+        .
+        .
+        .
 
     > CSharpReflectionTest.exe
     
